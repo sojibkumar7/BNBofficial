@@ -1,6 +1,6 @@
 // Follow me @MetaCoderJack
 const { Markup } = require('telegraf');
-const { sendBaseTokens, isValidBaseAddress, BASE_EXPLORER, quickBalanceCheck, getBaseBalances } = require('../utils/base'); // FIXED IMPORT PATH
+const { sendBaseTokens, isValidBaseAddress, BASE_EXPLORER, quickBalanceCheck, getBaseBalances } = require('../utils/bnb'); // FIXED IMPORT PATH
 const Withdrawal = require('../models/Withdrawal');
 const User = require('../models/User');
 const { formatWithUSD } = require('../utils/helpers');
